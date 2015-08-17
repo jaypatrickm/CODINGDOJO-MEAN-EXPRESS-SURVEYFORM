@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title>Survey Form</title>
+	<script src="/jquery/jquery.js"></script>
+	<script src="/bootstrap/bootstrap.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="cols-sm-12">
+				<form action="/result" method="post">
+					<div class="form-group">
+						<label for="name">Your Name</label>
+						<input type="text" class="form-control" name="name" placeholder="Enter Name">
+					</div>
+					<div class="form-group">
+						<label for="name">Dojo Location</label>
+						<select class="form-control" name="location">
+							<option value="Mountain View">Mountain View</option>
+							<option value="Seattle">Seattle</option>
+							<option value="Southbay">Southbay</option>
+							<option value="Online">Online</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="name">Favorite Language</label>
+						<select class="form-control" name="language">
+							<option value="Javascript">Javascript</option>
+							<option value="PHP">PHP</option>
+							<option value="Ruby">Ruby</option>
+							<option value="NodeJs">NodeJs</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="comments">Comments</label>
+						<textarea class="form-control" rows="3" name="comments"></textarea>
+					</div>
+					<button type="submit" class="btn btn-default">Submit</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

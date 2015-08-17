@@ -1,0 +1,10 @@
+//Steps to accomplish this
+//setup express: require files and invoke 
+//can use a json package to install multiple node mods: body-parse, ejs, path?
+//setup port where server will listen for http requests
+//setup get routes for the root ('/'), which is where the form will show first, and post which will probably show the results
+//then have to setup the ejs/view files to show these pages.
+//the users will see root page first, which will have a get request that will show a view of the survey form
+//the server is listening for these kinds of requests
+//when the user is done with the form, they will submit the form
+//this signals a post request and we will respond with the post request view page
